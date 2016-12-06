@@ -177,7 +177,7 @@ $EndComp
 Wire Wire Line
 	6950 1950 6950 2350
 Wire Wire Line
-	4050 1950 6950 1950
+	3700 1950 6950 1950
 Wire Wire Line
 	6550 1950 6550 2350
 Wire Wire Line
@@ -212,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3950 4050 4200
 Wire Wire Line
-	4050 4200 6950 4200
+	3700 4200 6950 4200
 Wire Wire Line
 	4700 4200 4700 3950
 Wire Wire Line
@@ -222,7 +222,7 @@ Wire Wire Line
 	5400 4200 5400 3350
 Connection ~ 5100 4200
 Wire Wire Line
-	4050 3450 6150 3450
+	3850 3450 6150 3450
 Connection ~ 4050 3450
 Connection ~ 4700 3450
 Wire Wire Line
@@ -258,4 +258,77 @@ F 3 "" H 3200 2900 50  0000 C CNN
 	1    3200 2900
 	0    1    1    0   
 $EndComp
+$Comp
+L R R?
+U 1 1 5846DCFB
+P 3200 3100
+F 0 "R?" V 3280 3100 50  0000 C CNN
+F 1 "R" V 3200 3100 50  0000 C CNN
+F 2 "" V 3130 3100 50  0000 C CNN
+F 3 "" H 3200 3100 50  0000 C CNN
+	1    3200 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5846DD4C
+P 3200 3300
+F 0 "R?" V 3280 3300 50  0000 C CNN
+F 1 "R" V 3200 3300 50  0000 C CNN
+F 2 "" V 3130 3300 50  0000 C CNN
+F 3 "" H 3200 3300 50  0000 C CNN
+	1    3200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5846DD94
+P 3200 3500
+F 0 "R?" V 3280 3500 50  0000 C CNN
+F 1 "R" V 3200 3500 50  0000 C CNN
+F 2 "" V 3130 3500 50  0000 C CNN
+F 3 "" H 3200 3500 50  0000 C CNN
+	1    3200 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 1950 3700 2900
+Wire Wire Line
+	3700 2900 3350 2900
+Connection ~ 4050 1950
+Wire Wire Line
+	4000 2850 3850 2850
+Wire Wire Line
+	3850 2850 3850 3100
+Wire Wire Line
+	3850 3100 3350 3100
+Wire Wire Line
+	3850 3450 3850 3300
+Wire Wire Line
+	3850 3300 3350 3300
+Wire Wire Line
+	3350 3500 3700 3500
+Wire Wire Line
+	3700 3500 3700 4200
+Connection ~ 4050 4200
+Wire Wire Line
+	2650 2900 3050 2900
+Wire Wire Line
+	2650 3000 2850 3000
+Wire Wire Line
+	2850 3000 2850 3100
+Wire Wire Line
+	2850 3100 3050 3100
+Wire Wire Line
+	2650 3100 2800 3100
+Wire Wire Line
+	2800 3100 2800 3300
+Wire Wire Line
+	2800 3300 3050 3300
+Wire Wire Line
+	2650 3200 2750 3200
+Wire Wire Line
+	2750 3200 2750 3500
+Wire Wire Line
+	2750 3500 3050 3500
 $EndSCHEMATC
